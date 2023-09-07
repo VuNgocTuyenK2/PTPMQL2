@@ -128,5 +128,9 @@ internal class Program
 //thuc hien phep chia lay phan nguyen va lay du 2 so => in ra man hinh//
         System.Console.WriteLine("{0} / {1} = {2}",a,b,a/b);
         System.Console.WriteLine("{0} % {1} = {2}", a, b, a%b);
+        if(a<b){
+            Console.WriteLine("{0} nho hon {1}", a,b);
+          } else{
+            Console.WriteLine("{0} lon hon {1}",a, b);
     }
 }
