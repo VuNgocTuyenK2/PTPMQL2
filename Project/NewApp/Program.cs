@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Net.NetworkInformation;
+using System.Runtime.CompilerServices;
 
 namespace HelloWorld
 {
@@ -66,5 +68,65 @@ internal class Program
        const int namLamviec = 8
        Console.WriteLine("Nhan vien {0} - {1} nam kinh nghiem",hoTen,namLamviec);
 
+    }
+}
+
+
+// chuyển đổi kiểu dữ liệu 
+   //chuyển đổi kiểu dữ liệu ngầm định
+   private static void Main(string[] args)
+   {
+    int a = 10;//biến số a kiểu int có kích thước nhỏ hơn biến số b kiểu float=> gán b=a
+    float b = a;//giá trị của a được chuyển sang float và gán cho b...
+    System.Console.WriteLine("b = "+ b);
+   }
+//ví dụ: chuyển đổi kiểu dữ liệu string(Gía trị là "123") sang kiểu số nguyên int(giá trị là 123)
+
+private static void Main(string[] args)
+{
+    string str = "123";
+    int a = int.Parse(str);
+    System.Console.WriteLine("a = " + a);
+    //Trypaurse
+    string str = "123"; //giá trị đầu vào de chuyển đổi
+    int ketQua; // biến lưu kết quả sau chuyển đổi
+    //bien kiểm tra chuyển đổi có thành công hay không 
+    bool kiemTra = false;
+    //chuyển đổi kiểu dữ liệu
+    kiemTra = int.TryParse(str,out(ketQua));
+    System.Console.WriteLine("Ket qua = " + ketQua);
+
+
+}
+//sử dụng lớp Convert
+private static void Main(string[] args)
+{
+    string str = "123";
+    int a = Convert.ToInt32(str);
+    System.Console.WriteLine("a = " + a);
+}
+
+//nhập 2 số từ bàn phím và thực hiện các yêu cầu sau:
+//tính hiệu
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+       int a;//khai bao bien a kieu int
+       int b;//khai báo bien b kieu int
+       //thong bao cho người dùng nhập vào a
+       System.Console.Write("a = ");
+       //doc du lieu nhap vao tu ban phim chuyen sang kieu int va gan cho a
+       a = Convert.ToInt32(Console.ReadLine());
+       System.Console.Write("b = ");
+       b = Convert.ToInt32(Console.ReadLine());
+       //in hieu a-b ra ngoai man hinh
+       System.Console.WriteLine("{0} - {1} = {2}",a,b,a-b);
+
+//tinh tich 2 so va in ra man hinh
+        System.Console.WriteLine("{0} * {1} = {2}",a,b,a*b);
+//thuc hien phep chia lay phan nguyen va lay du 2 so => in ra man hinh//
+        System.Console.WriteLine("{0} / {1} = {2}",a,b,a/b);
+        System.Console.WriteLine("{0} % {1} = {2}", a, b, a%b);
     }
 }
