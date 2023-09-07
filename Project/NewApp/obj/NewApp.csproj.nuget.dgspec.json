@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\PTPMQL2\\NewApp\\NewApp.csproj": {}
+    "D:\\PTPMQL2\\Project\\NewApp\\NewApp.csproj": {}
   },
   "projects": {
-    "d:\\PTPMQL2\\NewApp\\NewApp.csproj": {
+    "D:\\PTPMQL2\\Project\\NewApp\\NewApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\PTPMQL2\\NewApp\\NewApp.csproj",
+        "projectUniqueName": "D:\\PTPMQL2\\Project\\NewApp\\NewApp.csproj",
         "projectName": "NewApp",
-        "projectPath": "d:\\PTPMQL2\\NewApp\\NewApp.csproj",
+        "projectPath": "D:\\PTPMQL2\\Project\\NewApp\\NewApp.csproj",
         "packagesPath": "C:\\Users\\vinh khanh\\.nuget\\packages\\",
-        "outputPath": "d:\\PTPMQL2\\NewApp\\obj\\",
+        "outputPath": "D:\\PTPMQL2\\Project\\NewApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vinh khanh\\AppData\\Roaming\\NuGet\\NuGet.Config"

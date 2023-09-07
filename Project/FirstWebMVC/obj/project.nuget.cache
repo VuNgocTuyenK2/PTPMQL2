@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GNgtwv8oGYN2S+7og7NMePOqe+zLgSEvu/lxYK/ZQXdxIMSYqE6g59iri8mkVlGhKWY5uA7KSDbwsAcSYzDf3A==",
+  "dgSpecHash": "d8TsL3xXGaIKl7M/LEEnWR/ZWhlgjm07qBp4SQB5skse+mDH/L3f9cCppcsMo7Bxz7lQGG+A/I/fUSAxndMSog==",
   "success": true,
-  "projectFilePath": "D:\\PTPMQL2\\FirstWebMVC\\FirstWebMVC.csproj",
+  "projectFilePath": "d:\\PTPMQL2\\Project\\FirstWebMVC\\FirstWebMVC.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
