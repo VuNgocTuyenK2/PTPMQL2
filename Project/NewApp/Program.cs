@@ -164,3 +164,8 @@ int day = 2;
         System.Console.WriteLine("Khong phai ngay trong tuan");
         break;
     }  
+// câu lệnh for
+    for(int i = 0; i < 10; i++)
+      {
+        System.Console.WriteLine("Vòng lặp thứ {0}",i);
+      } 
