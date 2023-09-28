@@ -1,15 +1,13 @@
-using System.Drawing;
-using System.Collections.Specialized;
-using System.Net.Sockets;
 
 namespace NewApp.Models
 {
-    public class Student
+    public class Student : Person
     {
         public int MaSinhVien { get; set; }
         public string TenSinhVien { get; set; }
         public string Nganh { get; set; }
         public int Point { get; set; }
+        public string StudentCode { get; set; }
         public void NhapThongTin()
         {
             System.Console.Write("Ma Sinh Vien = ");
@@ -33,11 +31,9 @@ namespace NewApp.Models
         public int TinhDiem(int Point)
         {
             int TinhDiem = TinhDiem/1;
-            return TinhDiem;
-        }
-
-        {
             System.Console.WriteLine("{0} - {1} - {2} - {3} Point",MaSinhVien, TenSinhVien, Nganh, StringDictionary.TinhDiem(a));
+            return TinhDiem;
+
         }
     }
 }

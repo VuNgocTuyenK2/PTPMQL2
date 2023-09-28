@@ -30,6 +30,7 @@ std.Student(MaSinhVien,TenSinhVien,Nganh);
 int a = 9;
 Student std2 = new Student();
 std.NhapThongTin();
+std.StudentCode = "2021050715";
 std.HienThi();
 std2.HienThi();
 
