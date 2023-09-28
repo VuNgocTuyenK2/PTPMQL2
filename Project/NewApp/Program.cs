@@ -12,8 +12,10 @@ ps.HienThi();
 ps2.HienThi();
 //vu ngoc tuyen 2021050715
 Employee emp = new Employee();
+Employee emp2 = new Employee();
 emp.NhapThongTin();
 emp.HienThi();
+emp2.HienThi();
 Student std = new Student();
 //khai bao 3 bien va gan gia tri
 String MaSinhVien = 2021050715;

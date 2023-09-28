@@ -1,3 +1,4 @@
+using System.Drawing;
 using System.Collections.Specialized;
 using System.Net.Sockets;
 
@@ -8,8 +9,8 @@ namespace NewApp.Models
         public int MaSinhVien { get; set; }
         public string TenSinhVien { get; set; }
         public string Nganh { get; set; }
-        public void NhapThongTin()
         public int Point { get; set; }
+        public void NhapThongTin()
         {
             System.Console.Write("Ma Sinh Vien = ");
             MaSinhVien = Convert.ToInt32(Console.ReadLine());
@@ -36,7 +37,7 @@ namespace NewApp.Models
         }
 
         {
-            System.Console.WriteLine("{0} - {1} - {2} - {3} diem",MaSinhVien, TenSinhVien, Nganh, StringDictionary.TinhDiem(a));
+            System.Console.WriteLine("{0} - {1} - {2} - {3} Point",MaSinhVien, TenSinhVien, Nganh, StringDictionary.TinhDiem(a));
         }
     }
 }
