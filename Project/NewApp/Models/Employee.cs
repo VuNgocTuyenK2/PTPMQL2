@@ -2,7 +2,7 @@ using System.Collections;
 
 namespace NewApp.Models
 {
-    public class Employee
+    public class Employee : Person
     {
         
        public string MaNhanVien { get; set; }
@@ -10,7 +10,7 @@ namespace NewApp.Models
        public int Tuoi { get; set; }
        public double Luong { get; set; }
        public String DiaChi { get; set; }
-       public float HeSoLuong { get; set; }
+    
 
        
        public void NhapThongTin()
@@ -43,6 +43,19 @@ namespace NewApp.Models
         int c = 7000000;
         return Luong;
        }
+         public void EnterData()
+        {
+            base.EnterData();
+            System.Console.WriteLine("Ma nhan vien = ");
+            MaNhanVien = Console.ReadLine();  
+        }
+
+        public void Display()
+        {
+           base.Display();
+           System.Console.WriteLine("Ma nhan vien: {0}", MaNhanVien); 
+        
+        }
        public void HienThi()
        {
         System.Console.WriteLine("{0} - {1} - {2} - {3} VND", MaNhanVien, TenNhanVien, Tuoi, Luong);

@@ -12,6 +12,8 @@ ps.HienThi();
 ps2.HienThi();
 //vu ngoc tuyen 2021050715
 Employee emp = new Employee();
+emp.EnterData();
+emp.Display();
 //khai bao 2 bien va gan gia tri
 int a = 21;
 System.Console.WriteLine("{0} - {1} - {2} - {3}",MaNhanVien,TenNhanVien,DiaChi,emp.TinhLuong(c));
@@ -31,6 +33,8 @@ int a = 9;
 Student std2 = new Student();
 std.NhapThongTin();
 std.StudentCode = "2021050715";
+std.EnterData();
+std.Display();
 std.HienThi();
 std2.HienThi();
 

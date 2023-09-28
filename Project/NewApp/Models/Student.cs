@@ -23,6 +23,18 @@ namespace NewApp.Models
             TenSinhVien = "Vu Ngoc Tuyen";
             Nganh = "Cong Nghe Thong Tin";
         }
+         public void EnterData()
+        {
+            base.EnterData();
+            System.Console.WriteLine("Student Code = ");
+            StudentCode = Console.ReadLine();  
+        }
+
+        public void Display()
+        {
+           base.Display();
+           System.Console.WriteLine("Ma sinh vien: {0}", StudentCode); 
+        }
         public void HienThi()
         {
             System.Console.WriteLine("{0} - {1} - {2} ",MaSinhVien, TenSinhVien, Nganh);
