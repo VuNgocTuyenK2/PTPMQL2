@@ -37,5 +37,7 @@ namespace NewApp.Models
        {
         System.Console.WriteLine("{0} - {1} - {2} - {3} VND", MaNhanVien, TenNhanVien, Tuoi, Luong);
        }
+       public void Employee(int Tuoi, string DiaChi)
+       System.Console.WriteLine("{0} Tuoi - {1} DiaChi", Tuoi, DiaChi);
     }
 }

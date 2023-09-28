@@ -12,6 +12,10 @@ ps.HienThi();
 ps2.HienThi();
 //vu ngoc tuyen 2021050715
 Employee emp = new Employee();
+//khai bao 2 bien va gan gia tri
+int a = 21;
+string str = "Vu Ngoc Tuyen"
+emp.Employee(a, str);
 Employee emp2 = new Employee();
 emp.NhapThongTin();
 emp.HienThi();
