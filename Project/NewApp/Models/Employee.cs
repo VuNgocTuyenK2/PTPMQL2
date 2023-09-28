@@ -1,3 +1,5 @@
+using System.Collections;
+
 namespace NewApp.Models
 {
     public class Employee
@@ -8,6 +10,8 @@ namespace NewApp.Models
        public int Tuoi { get; set; }
        public double Luong { get; set; }
        public String DiaChi { get; set; }
+       public float HeSoLuong { get; set; }
+
        
        public void NhapThongTin()
 
@@ -33,11 +37,20 @@ namespace NewApp.Models
         string DiaChi = "Hai Duong"
 
        }
+        public int TinhLuong(int lcb)
+       {
+        int Luong = lcb + 10000;
+        int c = 7000000;
+        return Luong;
+       }
        public void HienThi()
        {
         System.Console.WriteLine("{0} - {1} - {2} - {3} VND", MaNhanVien, TenNhanVien, Tuoi, Luong);
        }
        public void Employee(int Tuoi, string DiaChi)
-       System.Console.WriteLine("{0} Tuoi - {1} DiaChi", Tuoi, DiaChi);
+       {
+        System.Console.WriteLine("{0} Tuoi - {1} DiaChi", Tuoi, DiaChi);
+       }
+       
     }
 }

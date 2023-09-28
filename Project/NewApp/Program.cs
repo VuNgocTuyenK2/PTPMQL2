@@ -14,6 +14,7 @@ ps2.HienThi();
 Employee emp = new Employee();
 //khai bao 2 bien va gan gia tri
 int a = 21;
+System.Console.WriteLine("{0} - {1} - {2} - {3}",MaNhanVien,TenNhanVien,DiaChi,emp.TinhLuong(c));
 string str = "Vu Ngoc Tuyen"
 emp.Employee(a, str);
 Employee emp2 = new Employee();
