@@ -15,6 +15,11 @@ Employee emp = new Employee();
 emp.NhapThongTin();
 emp.HienThi();
 Student std = new Student();
+//khai bao 3 bien va gan gia tri
+String MaSinhVien = 2021050715;
+String TenSinhVien = "Vu Ngoc Tuyen";
+String Nganh = "Cong Nghe Thong Tin";
+std.Student(MaSinhVien,TenSinhVien,Nganh);
 Student std2 = new Student();
 std.NhapThongTin();
 std.HienThi();

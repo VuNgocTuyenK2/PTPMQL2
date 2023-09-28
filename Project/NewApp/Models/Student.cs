@@ -26,5 +26,9 @@ namespace NewApp.Models
         {
             System.Console.WriteLine("{0} - {1} - {2} ",MaSinhVien, TenSinhVien, Nganh);
         }
+        public void Student(int MaSinhVien, String TenSinhVien, string Nganh)
+        {
+            System.Console.WriteLine("{0} - {1} - {2} ",MaSinhVien, TenSinhVien, Nganh);
+        }
     }
 }
