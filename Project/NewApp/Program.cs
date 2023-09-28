@@ -20,6 +20,7 @@ String MaSinhVien = 2021050715;
 String TenSinhVien = "Vu Ngoc Tuyen";
 String Nganh = "Cong Nghe Thong Tin";
 std.Student(MaSinhVien,TenSinhVien,Nganh);
+int a = 9;
 Student std2 = new Student();
 std.NhapThongTin();
 std.HienThi();
