@@ -16,8 +16,6 @@ namespace NewApp.Models
         FullName = Console.ReadLine();
         System.Console.Write("Age = ");
         Age = Convert.ToInt16(Console.ReadLine());
-
-        
        }
        public void HienThi()
        {

@@ -1,3 +1,5 @@
+using System.Net.Sockets;
+
 namespace NewApp.Models
 {
     public class Student
@@ -13,6 +15,12 @@ namespace NewApp.Models
             TenSinhVien = Console.ReadLine();
             System.Console.Write("Nganh = ");
             Nganh = Console.ReadLine();
+        }
+        public Student()
+        {
+            MaSinhVien = "2021050715";
+            TenSinhVien = "Vu Ngoc Tuyen";
+            Nganh = "Cong Nghe Thong Tin";
         }
         public void HienThi()
         {
