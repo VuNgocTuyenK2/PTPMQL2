@@ -48,7 +48,9 @@ frt2.HienThi();
 
 //pt bac nhat
  GiaiPT pt1 = new GiaiPT();
+ GiaiPT pt2 = new GiaiPT();
      System.Console.WriteLine(pt1.PhuongTrinhBacNhat(6, 9));
+     System.Console.WriteLine(pt2.PhuongTrinhBacHai(2,8,3));
     }
 
 }
