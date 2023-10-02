@@ -16,6 +16,16 @@ namespace NewApp.Models
             TenSinhVien = Console.ReadLine();
             System.Console.Write("Nganh = ");
             Nganh = Console.ReadLine();
+            try{
+
+            System.Console.Write("Ma Sinh Vien = ");
+            MaSinhVien = Convert.ToInt32(Console.ReadLine());
+
+            }catch(Exception e)
+            {
+                System.Console.WriteLine("Co ngoai le xay ra");
+
+            }
         }
         public Student()
         {
