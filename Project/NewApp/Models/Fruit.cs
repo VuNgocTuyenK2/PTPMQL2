@@ -14,6 +14,13 @@ namespace NewApp.Models
            GiaBan = Convert.ToInt32(Console.ReadLine());
            System.Console.Write("Khoi Luong = ");
            KhoiLuong = Convert.ToInt32(Console.ReadLine());
+           try{
+           System.Console.Write("GiaBan = ");
+           GiaBan = Convert.ToInt32(Console.ReadLine());
+           }catch(Exception e)
+           {
+            System.Console.WriteLine("Co ngoai le xay ra");
+           }
         }
         public void HienThi()
         {
