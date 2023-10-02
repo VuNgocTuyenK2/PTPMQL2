@@ -16,8 +16,6 @@ namespace NewApp.Models
        public void NhapThongTin()
 
        {
-        System.Console.Write("Ma Nhan Vien = ");
-        MaNhanVien = Convert.ToInt32(Console.ReadLine());
         System.Console.Write("Ten Nhan Vien = ");
         TenNhanVien = Console.ReadLine();
         System.Console.Write("Tuoi = ");
@@ -26,7 +24,15 @@ namespace NewApp.Models
         Luong = Convert.ToDouble(Console.ReadLine());
         System.Console.Write("Dia Chi = ");
         DiaChi = Console.ReadLine();
-        
+        try{
+        System.Console.Write("Ma Nhan Vien = ");
+        MaNhanVien = Convert.ToInt32(Console.ReadLine());
+
+        }catch(Exception e)
+        {
+
+            System.Console.WriteLine("Co ngoai le xay ra");
+        }
 
         
        }
