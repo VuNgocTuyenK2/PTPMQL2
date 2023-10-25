@@ -16,17 +16,43 @@ public class Program
             {
                 System.Console.Write("n = ");
                 n = Convert.ToInt32(Console.ReadLine());
+                private static void Main(string[] args)
+                {
+                    ArrayList studentList = new ArrayList();
+                    int n;
+                    do
+                    {
+                        try
+                        {
+                            System.Console.Write("n = ");
+                            n = Convert.ToInt32(Console.ReadLine());
+                        }
+                        catch
+                        {
+                            n = 0;
+                        }
+                    } while (n < 1);
 
-            }
-            catch
+                    // Them n phan tu vao list
+
+                    for (int i = 0; i < n; i++)
+                    {
+                        System.Console.WriteLine($"[{i}]");
+                        Student std = new Student();
+                        std.EnterData();
+                        studentList.Add(std);
+                    }
+
+                }
+            }catch
             {
                 n = 0;
             }
         } while (n < 1);
         Person[] A = new Person[n];
-        Employee [] A = new Employee[n];
-        Student [] A = new Student[n];
-        Fruit [] A = new Fruit[n];
+        Employee[] A = new Employee[n];
+        Student[] A = new Student[n];
+        Fruit[] A = new Fruit[n];
         for (int i = 0; i < A.Length; i++)
         {
             System.Console.WriteLine("A[{0}]:", i);
@@ -48,14 +74,14 @@ public class Program
         for (int i = 0; i < A.Length; i++)
         {
             System.Console.WriteLine(i + " FullName:  - " + A[i].FullName + " Address: - " + A[i].Address + " Age: - " + A[i].Age);
-            System.Console.WriteLine(i + " FullName:  - " + A[i].FullName + " Address: - " + A[i].Address + " EmployeeID: - " + A[i].EmployeeID );
-            System.Console.WriteLine(i + " FullName:  - " + A[i].FullName + " Address: - " + A[i].Address + " StudentID: - " + A[i].StudentID );
+            System.Console.WriteLine(i + " FullName:  - " + A[i].FullName + " Address: - " + A[i].Address + " EmployeeID: - " + A[i].EmployeeID);
+            System.Console.WriteLine(i + " FullName:  - " + A[i].FullName + " Address: - " + A[i].Address + " StudentID: - " + A[i].StudentID);
             System.Console.WriteLine(i + " FruitName:  - " + A[i].FruitName + " Cost: - " + A[i].Cost + "VND");
         }
 
 
-   
-    
+
+
 
 
 
