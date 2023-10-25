@@ -24,18 +24,23 @@ public class Program
             }
         } while (n < 1);
         Person[] A = new Person[n];
+        Employee [] A = new Employee[n];
         for (int i = 0; i < A.Length; i++)
         {
             System.Console.WriteLine("A[{0}]:", i);
             Person ps = new Person();
             ps.EnterData();
             A[i] = ps;
+            Employee emp = new Employee();
+            emp.EnterData();
+            A[i] = emp;
         }
 
         // HIen thi cac phan tu trong array
         for (int i = 0; i < A.Length; i++)
         {
             System.Console.WriteLine(i + " FullName:  - " + A[i].FullName + " Address: - " + A[i].Address + " Age: - " + A[i].Age);
+            System.Console.WriteLine(i + " FullName:  - " + A[i].FullName + " Address: - " + A[i].Address + " EmployeeID: - " + A[i].EmployeeID );
         }
 
 
