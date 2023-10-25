@@ -26,6 +26,7 @@ public class Program
         Person[] A = new Person[n];
         Employee [] A = new Employee[n];
         Student [] A = new Student[n];
+        Fruit [] A = new Fruit[n];
         for (int i = 0; i < A.Length; i++)
         {
             System.Console.WriteLine("A[{0}]:", i);
@@ -38,6 +39,9 @@ public class Program
             Student std = new Student();
             std.EnterData();
             A[i] = std;
+            Fruit frt = new Fruit();
+            frt.NhapThongTin();
+            A[i] = frt;
         }
 
         // HIen thi cac phan tu trong array
@@ -46,6 +50,7 @@ public class Program
             System.Console.WriteLine(i + " FullName:  - " + A[i].FullName + " Address: - " + A[i].Address + " Age: - " + A[i].Age);
             System.Console.WriteLine(i + " FullName:  - " + A[i].FullName + " Address: - " + A[i].Address + " EmployeeID: - " + A[i].EmployeeID );
             System.Console.WriteLine(i + " FullName:  - " + A[i].FullName + " Address: - " + A[i].Address + " StudentID: - " + A[i].StudentID );
+            System.Console.WriteLine(i + " FruitName:  - " + A[i].FruitName + " Cost: - " + A[i].Cost + "VND");
         }
 
 
