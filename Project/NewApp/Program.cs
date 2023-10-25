@@ -25,6 +25,7 @@ public class Program
         } while (n < 1);
         Person[] A = new Person[n];
         Employee [] A = new Employee[n];
+        Student [] A = new Student[n];
         for (int i = 0; i < A.Length; i++)
         {
             System.Console.WriteLine("A[{0}]:", i);
@@ -34,6 +35,9 @@ public class Program
             Employee emp = new Employee();
             emp.EnterData();
             A[i] = emp;
+            Student std = new Student();
+            std.EnterData();
+            A[i] = std;
         }
 
         // HIen thi cac phan tu trong array
@@ -41,6 +45,7 @@ public class Program
         {
             System.Console.WriteLine(i + " FullName:  - " + A[i].FullName + " Address: - " + A[i].Address + " Age: - " + A[i].Age);
             System.Console.WriteLine(i + " FullName:  - " + A[i].FullName + " Address: - " + A[i].Address + " EmployeeID: - " + A[i].EmployeeID );
+            System.Console.WriteLine(i + " FullName:  - " + A[i].FullName + " Address: - " + A[i].Address + " StudentID: - " + A[i].StudentID );
         }
 
 
