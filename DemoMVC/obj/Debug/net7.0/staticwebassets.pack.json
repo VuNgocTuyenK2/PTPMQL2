@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "D:\\PTPMQL2\\DemoMVC\\wwwroot\\css\\w3.css",
+      "PackagePath": "staticwebassets\\css\\w3.css"
+    },
+    {
       "Id": "D:\\PTPMQL2\\DemoMVC\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

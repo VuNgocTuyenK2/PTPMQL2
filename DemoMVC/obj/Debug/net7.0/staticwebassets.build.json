@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7PltVLymLqAZjh1gNUEnLhxIDR116IzNEoPEZRPAi6A=",
+  "Hash": "1lfZOroy63DMmmHkqoZaspBSTtsHUdfc98XUy8TRLAA=",
   "Source": "DemoMVC",
   "BasePath": "_content/DemoMVC",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\PTPMQL2\\DemoMVC\\wwwroot\\css\\w3.css",
+      "SourceId": "DemoMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\PTPMQL2\\DemoMVC\\wwwroot\\",
+      "BasePath": "_content/DemoMVC",
+      "RelativePath": "css/w3.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\w3.css"
     },
     {
       "Identity": "D:\\PTPMQL2\\DemoMVC\\wwwroot\\favicon.ico",
