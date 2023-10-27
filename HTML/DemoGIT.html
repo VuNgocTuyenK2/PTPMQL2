@@ -229,6 +229,21 @@ z = x + y;
   <label for="lname">Last name:</label><br>
   <input type="text" id="lname" name="lname" value="2021050715"><br><br>
   <input type="submit" value="Submit">
+
+  <h1>The input form attribute</h1>
+
+<p>The form attribute specifies the form an input element belongs to.</p>
+
+<form action="/action_page.php" id="form1">
+  <label for="fname">StudentID:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+//vungoctuyen2021050715
+<p>The "FullName" field below is outside the form element, but still part of the form.</p>
+
+<label for="lname">FullName:</label>
+<input type="text" id="lname" name="lname" form="form1">
 </body>
 
 </html>
