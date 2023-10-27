@@ -612,6 +612,35 @@ function showPosition(position) {
   <div id="result"></div>
   <p>vungoctuyen2021050715</p>
   <p>toi yeu humg</p>
+
+  
+  <p>Count numbers: <output id="result"></output></p>
+  <button onclick="startWorker()">start</button> 
+  <button onclick="stopWorker()">Stop </button>
+  
+  <p><strong>Note:</strong> 2021050715VungocTuyen.</p>
+  
+  <script>
+  var w;
+  
+  function startWorker() {
+    if(typeof(Worker) !== "undefined") {
+      if(typeof(w) == "undefined") {
+        w = new Worker("demo_workers.js");
+      }
+      w.onmessage = function(event) {
+        document.getElementById("result").innerHTML = event.data;
+      };
+    } else {
+      document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Workers...";
+    }
+  }
+  
+  function stopWorker() { 
+    w.terminate();
+    w = undefined;
+  }
+  </script>
   
     </body>
 
