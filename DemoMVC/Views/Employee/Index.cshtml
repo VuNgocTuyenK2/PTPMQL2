@@ -1,13 +1,18 @@
-<form asp-action="Index" class="w3-container w3-card-4">
-  <h2 class="w3-text-blue">Input Form</h2>
-  <p>nhap so lieu.</p>
-  <p>      
-  <label class="w3-text-blue"><b>EmployeeID</b></label>
-  <input class="w3-input w3-border" name="first" type="text"></p>
-  <p>      
-  <label class="w3-text-blue"><b>FullName</b></label>
-  <input class="w3-input w3-border" name="last" type="text"></p>
-  <p>      
-  <button class="w3-btn w3-blue">Send</button></p>
+<form asp-action="Index">
+<!--vungoctuyen2021050715-->
+    <label>Full Name :</label><br>
+    <input type="text" name="FullName"required placeholder="Enter FullName"><br>
+    <label>He so luong:</label><br>
+    <input type="text" name="HeSoLuong" required placeholder="Enter HeSoLuong"><br>
+    <label>luong co ban</label><br>
+    <input type="text" name="LuongCB" required placeholder="Enter LuongCoban"><br>
+    <label>Phu cap</label><br>
+    <input type="text" name="PhuCap" required placeholder="Enter PhuCap"><br>
+
+    <br>
+<!--vungoctuyen2021050715-->
+    <input type="submit" value="Save">
+
+    <br>
 </form>
-<h1>@ViewBag.thongBao</h1>
+<p>@ViewBag.KetQuaTinhLuong</p>

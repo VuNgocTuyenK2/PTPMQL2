@@ -1,7 +1,9 @@
 namespace DemoMVC.Models;
-
+using System.ComponentModel.DataAnnotations;
 public class Employee
 {
-    public int EmployeeID { get; set; }
-    public string FullName { get; set; }
+    public  string FullName { get; set; }
+    public int HeSoLuong { get; set; }
+    public int LuongCB { get; set; }
+    public int PhuCap { get; set; }
 }
