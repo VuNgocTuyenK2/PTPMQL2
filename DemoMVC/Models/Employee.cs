@@ -1,9 +1,8 @@
 namespace DemoMVC.Models;
 using System.ComponentModel.DataAnnotations;
-public class Employee
+public class Employee : Person
 {
-    public  string FullName { get; set; }
-    public int HeSoLuong { get; set; }
-    public int LuongCB { get; set; }
-    public int PhuCap { get; set; }
+  //bo sung them thuoc tinh 
+  public string EmployeeID { get; set; }
+  public int Age { get; set; }
 }
