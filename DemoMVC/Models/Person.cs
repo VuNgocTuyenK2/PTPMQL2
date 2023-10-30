@@ -1,14 +1,15 @@
-using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
-
-namespace DemoMVC.Models;
-
+using System.ComponentModel.DataAnnotations.Schema;
 //Vu Ngoc Tuyen 2021050715
-public class Person
+namespace DemoMVC.Models
 {
-    
-    public int PersonID { get; set; }
-    public string FullName { get; set; }
-    public string Address { get; set; }
+    [Table("Person")]
+    public class Person
+    {
+        [Key]
+        public int PersonID { get; set; }
+        public required string FullName { get; set; }
+    }
 }
+
 //Vu Ngoc Tuyen 2021050715 
