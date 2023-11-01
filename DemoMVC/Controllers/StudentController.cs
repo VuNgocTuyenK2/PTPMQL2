@@ -9,7 +9,7 @@ public class StudentController  :   Controller
     {
         return View();
     }
-
+//Vu Ngoc Tuyen 2021050715
     [HttpPost]
     public IActionResult Index(string StudentID, string FullName)
     {
