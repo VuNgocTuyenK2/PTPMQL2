@@ -13,7 +13,7 @@ namespace DemoMVC.Migrations
     [Migration("20231030050445_Create_table_Person")]
     partial class Create_table_Person
     {
-        /// <inheritdoc />
+        /// <inheritdoc /> Vu Ngoc Tuyen 2021050715
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
@@ -21,19 +21,19 @@ namespace DemoMVC.Migrations
 
             modelBuilder.Entity("DemoMVC.Models.Person", b =>
                 {
-                    b.Property<int>("PersonID")
+                    b.Property<int>("PersonID")//Vu Ngoc Tuyen 2021050715
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
+                        .HasColumnType("INTEGER");//Vu Ngoc Tuyen 2021050715
 
-                    b.Property<string>("FullName")
+                    b.Property<string>("FullName")//Vu Ngoc Tuyen 2021050715
                         .IsRequired()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("TEXT");//Vu Ngoc Tuyen 2021050715
 
-                    b.HasKey("PersonID");
+                    b.HasKey("PersonID");//Vu Ngoc Tuyen 2021050715
 
-                    b.ToTable("Person");
+                    b.ToTable("Person");//Vu Ngoc Tuyen 2021050715
                 });
-#pragma warning restore 612, 618
+#pragma warning restore 612, 618//Vu Ngoc Tuyen 2021050715
         }
     }
 }

@@ -8,7 +8,7 @@ public class PersonController : Controller
     {
         return View();
     }
-    [HttpPost]
+    [HttpPost]//Vu Ngoc Tuyen 2021050715
     public IActionResult Index(Person ps)
     {
         string strResult = ps.PersonID + "-" + ps.FullName;
@@ -16,3 +16,4 @@ public class PersonController : Controller
         return View();
     }
 }
+//Vu Ngoc Tuyen 2021050715

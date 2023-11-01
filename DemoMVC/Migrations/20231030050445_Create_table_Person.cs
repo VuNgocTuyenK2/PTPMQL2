@@ -4,31 +4,31 @@
 
 namespace DemoMVC.Migrations
 {
-    /// <inheritdoc />
+    /// <inheritdoc /> Vu Ngoc Tuyen 2021050715
     public partial class Create_table_Person : Migration
     {
-        /// <inheritdoc />
+        /// <inheritdoc /> Vu Ngoc Tuyen 2021050715
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Person",
+                name: "Person",//Vu Ngoc Tuyen 2021050715
                 columns: table => new
                 {
-                    PersonID = table.Column<int>(type: "INTEGER", nullable: false)
+                    PersonID = table.Column<int>(type: "INTEGER", nullable: false)//Vu Ngoc Tuyen 2021050715
                         .Annotation("Sqlite:Autoincrement", true),
-                    FullName = table.Column<string>(type: "TEXT", nullable: false)
+                    FullName = table.Column<string>(type: "TEXT", nullable: false)//Vu Ngoc Tuyen 2021050715
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Person", x => x.PersonID);
+                    table.PrimaryKey("PK_Person", x => x.PersonID);//Vu Ngoc Tuyen 2021050715
                 });
         }
 
-        /// <inheritdoc />
+        /// <inheritdoc /> Vu Ngoc Tuyen 2021050715
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Person");
+                name: "Person");//Vu Ngoc Tuyen 2021050715
         }
     }
 }
