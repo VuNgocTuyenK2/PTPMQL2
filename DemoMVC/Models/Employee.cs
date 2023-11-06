@@ -1,7 +1,13 @@
-namespace DemoMVC.Models;
 
-public class Employee
+namespace DemoMVC.Models
 {
-    public int EmployeeID { get; set; }
-    public string FullName { get; set; }
+    
+    public class Employee : Person
+    {
+        
+       public string EmployeeID  { get; set; }
+       public int Age  { get; set; }
+
+    }
 }
+//Vu Ngoc Tuyen 2021050715

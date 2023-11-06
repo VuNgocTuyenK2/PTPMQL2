@@ -2,10 +2,10 @@ namespace DemoMVC.Models
 {
     public class DaiLy : HeThongPhanPhoi
     {
-        public string MaDaiLy { get; set; }
-        public string TenDaiLy { get; set; }
-        public string DiaChi { get; set; }
-        public string NguoiDaiDien { get; set; }
-        public string DienThoai { get; set; }
+        public required string MaDaiLy { get; set; }
+        public required string TenDaiLy { get; set; }
+        public required string DiaChi { get; set; }
+        public required string NguoiDaiDien { get; set; }
+        public required string DienThoai { get; set; }
     }
 }
