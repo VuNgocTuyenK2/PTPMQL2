@@ -9,97 +9,117 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DemoMVC
 build_property.RootNamespace = DemoMVC
-build_property.ProjectDir = D:\PTPMQL2\DemoMVC\
+build_property.ProjectDir = D:\PTPMQL\PTPMQL2\DemoMVC\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\PTPMQL2\DemoMVC
+build_property.MSBuildProjectDirectory = D:\PTPMQL\PTPMQL2\DemoMVC
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/PTPMQL2/DemoMVC/Views/Demo/Index.cshtml]
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/Demo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVtb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PTPMQL2/DemoMVC/Views/Employee/Create.cshtml]
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/Employee/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PTPMQL2/DemoMVC/Views/Employee/Delete.cshtml]
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/Employee/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PTPMQL2/DemoMVC/Views/Employee/Details.cshtml]
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/Employee/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PTPMQL2/DemoMVC/Views/Employee/Edit.cshtml]
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/Employee/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PTPMQL2/DemoMVC/Views/Employee/Index.cshtml]
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/Employee/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PTPMQL2/DemoMVC/Views/Home/Demo.cshtml]
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/Home/Demo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZW1vLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PTPMQL2/DemoMVC/Views/Home/Index.cshtml]
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PTPMQL2/DemoMVC/Views/Home/Privacy.cshtml]
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PTPMQL2/DemoMVC/Views/Person/Create.cshtml]
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/Person/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PTPMQL2/DemoMVC/Views/Person/Delete.cshtml]
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/Person/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PTPMQL2/DemoMVC/Views/Person/Edit.cshtml]
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/Person/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/Person/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PTPMQL2/DemoMVC/Views/Person/Index.cshtml]
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/Person/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PTPMQL2/DemoMVC/Views/PhuongTrinhBacNhat/Index.cshtml]
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/PhuongTrinhBacNhat/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGh1b25nVHJpbmhCYWNOaGF0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PTPMQL2/DemoMVC/Views/PTrinhBac2/Index.cshtml]
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/PTrinhBac2/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUFRyaW5oQmFjMlxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PTPMQL2/DemoMVC/Views/PTrinhBacNhat/Index.cshtml]
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/PTrinhBacNhat/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUFRyaW5oQmFjTmhhdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PTPMQL2/DemoMVC/Views/Shared/Error.cshtml]
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PTPMQL2/DemoMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PTPMQL2/DemoMVC/Views/Student/Index.cshtml]
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/Student/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/Student/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/Student/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/Student/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/Student/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PTPMQL2/DemoMVC/Views/_ViewImports.cshtml]
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PTPMQL2/DemoMVC/Views/_ViewStart.cshtml]
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PTPMQL2/DemoMVC/Views/Shared/_Layout.cshtml]
+[D:/PTPMQL/PTPMQL2/DemoMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-hzgfhw30l6

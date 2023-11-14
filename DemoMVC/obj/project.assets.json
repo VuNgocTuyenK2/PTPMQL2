@@ -11539,11 +11539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PTPMQL2\\DemoMVC\\DemoMVC.csproj",
+      "projectUniqueName": "D:\\PTPMQL\\PTPMQL2\\DemoMVC\\DemoMVC.csproj",
       "projectName": "DemoMVC",
-      "projectPath": "D:\\PTPMQL2\\DemoMVC\\DemoMVC.csproj",
+      "projectPath": "D:\\PTPMQL\\PTPMQL2\\DemoMVC\\DemoMVC.csproj",
       "packagesPath": "C:\\Users\\vinh khanh\\.nuget\\packages\\",
-      "outputPath": "D:\\PTPMQL2\\DemoMVC\\obj\\",
+      "outputPath": "D:\\PTPMQL\\PTPMQL2\\DemoMVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vinh khanh\\AppData\\Roaming\\NuGet\\NuGet.Config"

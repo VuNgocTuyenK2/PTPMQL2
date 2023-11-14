@@ -1,11 +1,20 @@
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace DemoMVC.Models
 {
-    public class DaiLy : HeThongPhanPhoi
+    public class Daily : HeThongPhanPhoi
     {
-        public required string MaDaiLy { get; set; }
-        public required string TenDaiLy { get; set; }
-        public required string DiaChi { get; set; }
-        public required string NguoiDaiDien { get; set; }
-        public required string DienThoai { get; set; }
+        [Key]
+
+        public string? MaDaily { get; set; }
+        public string? TenDaily { get; set; }
+        public string? Diachi { get; set; }
+        public string? Nguoidaidien { get; set; }
+        public string? Dienthoi { get; set; }
+        public string? MaHTPP { get; set; }
+
+        [ForeignKey("MaHTPP")]
+        public HeThongPhanPhoi? HeThongPhanPhoi { get; set; }
     }
 }

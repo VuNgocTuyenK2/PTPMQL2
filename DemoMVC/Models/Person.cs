@@ -9,9 +9,10 @@ namespace DemoMVC.Models
     {
         [Key]
         //Vu Ngoc Tuyen 2021050715
-        public required string PersonID { get; set; }
-        public required string FullName { get; set; }
-        public required string Address { get; set; }//Vu Ngoc Tuyen 2021050715
+        public  string PersonID { get; set; }
+        public  string FullName { get; set; }
+        public  string Address { get; set; }//Vu Ngoc Tuyen 2021050715
+        public int Age { get; set; }
     }
 }
 
