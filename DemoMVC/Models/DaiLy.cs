@@ -13,6 +13,6 @@ namespace DemoMVC.Models
         public string Nguoidaidien { get; set; }
         public string Dienthoi { get; set; }
         public string MaHTPP { get; set; }
-
+        
     }
 }
