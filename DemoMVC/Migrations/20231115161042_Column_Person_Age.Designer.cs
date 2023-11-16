@@ -10,27 +10,14 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DemoMVC.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231114144624_Create_table_HeThongPhanPhoi")]
-    partial class Create_table_HeThongPhanPhoi
+    [Migration("20231115161042_Column_Person_Age")]
+    partial class Column_Person_Age
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.13");
-
-            modelBuilder.Entity("DemoMVC.Models.HeThongPhanPhoi", b =>
-                {
-                    b.Property<string>("MaHTPP")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("TenHTPP")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("MaHTPP");
-
-                    b.ToTable("HeThongPhanPhoi");
-                });
 
             modelBuilder.Entity("DemoMVC.Models.Person", b =>
                 {

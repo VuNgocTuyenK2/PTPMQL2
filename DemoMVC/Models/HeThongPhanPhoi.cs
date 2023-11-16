@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DemoMVC.Models
 {
-    [Table("HeThongPhanPhoi")]
+    
     public class HeThongPhanPhoi
     {
         [Key]

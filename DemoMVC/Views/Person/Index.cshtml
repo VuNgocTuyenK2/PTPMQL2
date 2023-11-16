@@ -1,38 +1,40 @@
 @model IEnumerable<DemoMVC.Models.Person>
 
 @{
-    ViewData["Title"] = "Index";
+      ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<h1>Index</h1>
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.FullName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Address)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.FullName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Address)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.PersonID">Edit</a> |
-                <a asp-action="Delete" asp-route-itemid="@item.PersonID">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+
+<div class="w3-container">
+    <div class="w3-row">
+        <b>People/</b>index
+        <a asp-action="Create" class="w3-btn w3-border w3-border-blue w3-round w3-right w3-tiny w3-horver-blue">+ Add new</a>
+    </div>
+    <hr/>
+    <table class="w3-table-all w3-card-4 w3-centered">
+        <thead>
+            <tr class="w3-blue">
+                <th class="w3-col l2">PersonID</th>
+                <th class="w3-col l4">Full Name</th>
+                <th class="w3-col l2">Age</th>
+                <th class="w3-col l2">Address</th>
+                <th class="w3-col l2">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class="w3-col l2">@item.PersonID</td>
+                    <td class="w3-col l4">@item.FullName</td>
+                    <td class="w3-col l2">@item.Age</td>
+                    <td class="w3-col l2">@item.Address</td>
+                    <td class="w3-col l2">
+                        <a asp-action="Edit" asp-route-id="@item.PersonID" class="w3-button w3-green w3-round-large w3-small"><i class="fa fa-edit"></i></a>
+                        <a asp-action="Delete" asp-route-id="@item.PersonID" class="w3-button w3-red w3-round-large w3-small"><i class="fa fa-trash"></i></a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

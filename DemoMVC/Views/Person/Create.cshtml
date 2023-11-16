@@ -8,36 +8,56 @@
 
 <h4>Person</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
+
+<div class="w3-row">
+    <b>Person/</b>create
+</div>
+<hr>
+<div class="max-width-40 ud-center">
+    <div class="w3-container w3-teal">
+        <h2>Create new Student</h2>
+    </div>
+    <form asp-action="Create" class="w3-container w3-card-4 w3-padding">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="w3-row">
+            <div class="w3-col l3">
                 <label asp-for="PersonID" class="control-label"></label>
-                <input asp-for="PersonID" class="form-control" />
+                
+                  <input asp-for="PersonID" class="w3-input w3-border w3-border-blue w3-round" />
                 <span asp-validation-for="PersonID" class="text-danger"></span>
             </div>
-            <div class="form-group">
+             
+        <div class="w3-row">
+            <div class="w3-col l3">
+                <div class="w3-col l8 w3-right"></div>
                 <label asp-for="FullName" class="control-label"></label>
-                <input asp-for="FullName" class="form-control" />
+                
+                <input asp-for="FullName" class="w3-input w3-border w3-border-blue w3-round" />
                 <span asp-validation-for="FullName" class="text-danger"></span>
             </div>
-            <div class="form-group">
+             <div class="w3-col l8 w3-right">
                 <label asp-for="Address" class="control-label"></label>
-                <input asp-for="Address" class="form-control" />
+               <input asp-for="Address" class="w3-input w3-border w3-border-blue w3-round" />
                 <span asp-validation-for="Address" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <label asp-for="Age" class="control-label"></label>
+                <input asp-for="Age" class="form-control" />
+                <span asp-validation-for="Age" class="text-danger"></span>
             </div>
-        </form>
-    </div>
+            </div>
+        <div class="w3-margin-top">
+            <a class="w3-btn w3-round w3-green w3-card-4" asp-action="Index">Quay lại</a>
+            <input type="submit" value="Create" class="w3-btn w3-blue w3-right w3-round w3-card-4" />
+        </div>
+    
+    </form>
+</div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
