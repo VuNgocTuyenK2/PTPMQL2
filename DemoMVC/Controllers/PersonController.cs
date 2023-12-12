@@ -9,6 +9,7 @@ using DemoMVC.Data;
 using DemoMVC.Models;
 using DemoMVC.Models.Process;
 using OfficeOpenXml;
+using X.PagedList;
 
 namespace DemoMVC.Controllers
 {
@@ -21,14 +22,15 @@ namespace DemoMVC.Controllers
         {
             _context = context;
         }
+        //phan trang
+        public async Task<IActionResult> Index(int? page)
+        {
+            var model = _context.Person.ToList().ToPagedList(page ?? 1, 5);
+            return View(model);
+        }
 
         // GET: Person
-        public async Task<IActionResult> Index()
-        {
-              return _context.Person != null ? 
-                          View(await _context.Person.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbContext.Person'  is null.");
-        }
+        
 
         // GET: Person/Details/5
         public async Task<IActionResult> Details(string id)
